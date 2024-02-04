@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-03/",
+    "build": "vite build --base=/project-js-fitness/",
     "preview": "vite preview"
   },
   "devDependencies": {
