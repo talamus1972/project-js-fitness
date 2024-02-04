@@ -9,18 +9,6 @@
   padding: 40px 20px 20px 20px;
 }
 
-/* .menu-social {
-  grid-area: menu;
-  display: flex;
-  flex-direction: column;
-} */
-
-/* .menu-social {
-  grid-area: menu;
-  display: flex;
-  flex-direction: column;
-} */
-
 .menu-social {
   grid-area: menu;
   display: flex;
@@ -37,6 +25,12 @@
   letter-spacing: -0.32px;
   margin-bottom: 9px;
 }
+
+/* .menu-list {
+  display: flex;
+  gap: 12px;
+} */
+
 
 .menu-list {
   display: flex;
