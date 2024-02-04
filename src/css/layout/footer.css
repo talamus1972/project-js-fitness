@@ -15,7 +15,11 @@
   flex-direction: column;
 } */
 
-
+/* .menu-social {
+  grid-area: menu;
+  display: flex;
+  flex-direction: column;
+} */
 
 .menu-social {
   grid-area: menu;
