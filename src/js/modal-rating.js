@@ -7,7 +7,7 @@ const parStar = document.querySelector('.modal-rating-rating');
 const backdrop = document.querySelector('.modal-rating-background');
 const backgroundTrane = document.querySelector('.modal-trane-background');
 const closeButton = document.querySelector('.modal-rating-btn-close');
-const ratingButton = document.querySelector('.modal-trane-btn-rating');
+// const ratingButton = document.querySelector('.modal-trane-btn-rating');
 
 export function openModalRating() {
   backgroundTrane.classList.remove('modal-trane-background-active');
