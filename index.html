@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    
+    <script type="module" crossorigin src="/project-js-fitness/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/project-js-fitness/assets/vendor-0a7943b3.js">
+    <link rel="modulepreload" crossorigin href="/project-js-fitness/assets/change-theme-05eae00a.js">
+    <link rel="stylesheet" href="/project-js-fitness/assets/change-theme-9ddf3fde.css">
+    <link rel="stylesheet" href="/project-js-fitness/assets/vendor-e5212ee8.css">
+  </head>
+  <body>
+    <div class="burger-menu-block is-hidden no-scroll">
+  <div class="burger-menu">
+    <div class="burger-menu__header-mobile-menu">
+      <a class="burger-menu__link" href="#">energy.flow</a>
+      <button class="burger-menu__btn-close" type="button">
+        <svg class="burger-menu__icon-close" width="20" height="20">
+          <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-x"></use>
+        </svg>
+      </button>
+    </div>
+    <div>
+      <ul class="burger-menu__pages-list">
+        <li class="burger-menu__pages-list__item">
+          <a
+            class="burger-menu__pages-list__item__link page-active"
+            href="./index.html"
+            >Home</a
+          >
+        </li>
+        <li class="burger-menu__pages-list__item">
+          <a class="burger-menu__pages-list__item__link" href="./favorit.html"
+            >Favorites</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul class="burger-menu__social-link-list">
+        <li class="burger-menu__social-link-list__item">
+          <a class="burger-menu__social-link-list__link" href="#">
+            <svg
+              class="icon-close"
+              width="25"
+              height="25"
+              style="fill: #f6f6f6"
+            >
+              <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="burger-menu__social-link-list__item">
+          <a class="burger-menu__social-link-list__link" href="#">
+            <svg
+              class="icon-close"
+              width="25"
+              height="25"
+              style="fill: #f6f6f6"
+            >
+              <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="burger-menu__social-link-list__item">
+          <a class="burger-menu__social-link-list__link" href="#">
+            <svg
+              class="icon-close"
+              width="25"
+              height="25"
+              style="fill: #f6f6f6"
+            >
+              <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <header class="header">
+  <div class="container">
+    <nav class="header-nav">
+      <a class="logo-link" href="#">energy.flow</a>
+      <ul class="page-list">
+        <li class="page-list-item active">
+          <a class="page-link" href="#">Home</a>
+        </li>
+        <li class="page-list-item-disable">
+          <a class="page-link fav" href="./favorit.html">Favorites</a>
+        </li>
+      </ul>
+
+      <ul class="sm-list">
+        <li class="sm-list__item-swith-theme">
+          <div class="change-btn">
+            <label class="switch">
+              <input class="change" type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </li>
+        <li class="sm-list-item">
+          <a
+            class="sm-link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+          >
+            <svg class="icon">
+              <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-facebook">icon</use>
+            </svg>
+          </a>
+        </li>
+        <li class="sm-list-item">
+          <a
+            class="sm-link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+          >
+            <svg class="icon">
+              <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-instagram">icon</use>
+            </svg>
+          </a>
+        </li>
+        <li class="sm-list-item">
+          <a
+            class="sm-link"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+          >
+            <svg class="icon">
+              <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-youtube">icon</use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <button class="button-burger" type="button">
+        <svg class="icon-burger" width="32" height="16">
+          <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-open-burger-menu"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <section class="hero container">
+  <div class="hero-first-container">
+    <ul class="hero-first-container-ul">
+      <li class="hero-first-container-li">#Sport</li>
+      <li class="hero-first-container-li">#Healthy</li>
+      <li class="hero-first-container-li">#Workout</li>
+      <li class="hero-first-container-li">#Diet</li>
+    </ul>
+  </div>
+
+  <div class="hero-second-container">
+    <h1 class="hero-second-container-title">
+      Get <span class="hero-second-container-span">Body</span> in shape, Stay
+      healthy
+    </h1>
+    <p class="hero-second-container-text">
+      Transform your physique and embrace a healthier lifestyle with our
+      comprehensive fitness and nutrition support.
+    </p>
+  </div>
+  <!-- ================================================================================================== -->
+  <div class="hero-third-container">
+    <div>
+      <svg width="34" height="34">
+        <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-icon"></use>
+      </svg>
+    </div>
+
+    <div>
+      <div class="favorite-svg__circle">
+        <h3 class="favorite-quote__title">Quote of the day</h3>
+        <svg class="commas__svg" width="28" height="28">
+          <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-inverted-commas"></use>
+        </svg>
+      </div>
+      <p class="favorite-quote__text"></p>
+      <p class="favorite-quote__autor"></p>
+    </div>
+  </div>
+
+  <div class="hero-fourth-container"></div>
+</section>
+
+    <section class="render-page-one">
+  <div class="container render-page-block">
+    <h2 class="render-page-one-title">
+      Exercises
+      <span class="render-page-one-slesh" style="display: none">/</span
+      ><span class="render-page-one-title-part"> </span>
+    </h2>
+    <div class="render-page-one-list-btn-search">
+      <ul class="render-page-one-list-btn">
+        <li class="render-page-one-filter-list">
+          <button class="render-page-one-btn render-page-one-btn-active">
+            Muscles
+          </button>
+        </li>
+        <li><button class="render-page-one-btn">Body parts</button></li>
+        <li><button class="render-page-one-btn">Equipment</button></li>
+      </ul>
+      <form class="form-search" style="display: none">
+        <label>
+          <input
+            type="text"
+            name="query"
+            class="form-search__input"
+            placeholder="Search"
+          />
+        </label>
+        <button type="submit" class="form-search__button">
+          <svg class="form-search__icon">
+            <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-search"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <ul class="render-page-one-list"></ul>
+    <ul class="render-btn-list-pagination"></ul>
+  </div>
+</section>
+
+    <section class="section-import-minutes">
+  <div class="container">
+    <ul class="important-list">
+      <li class="important-item-img">
+        <div class="important-img"></div>
+      </li>
+
+      <li class="important-item">
+        <div class="important-container">
+          <div class="important-card">
+            <svg class="important-svg" width="32" height="32">
+              <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-fluent-food"></use>
+            </svg>
+            <h2 class="important-title">110 min</h2>
+          </div>
+          <p class="important-title-text">Daily norm of sports</p>
+          <p class="important-text">
+            The World Health Organization recommends at least 150 minutes of
+            moderate-intensity aerobic physical activity throughout the week for
+            adults aged 18-64. However, what happens if we adjust that number to
+            110 minutes every day?
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <footer>
+  <div class="container">
+    <div class="footer-box">
+      <div class="menu-social">
+        <a class="footer-logo" href="./index.html">energy.flow</a>
+
+        <ul class="menu-list">
+          <li class="menu-items">
+            <a
+              class="menu-link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+            >
+              <svg class="icons-footer" width="28" height="28">
+                <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-items">
+            <a
+              class="menu-link"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+            >
+              <svg class="icons-footer" width="28" height="28">
+                <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-items">
+            <a
+              class="menu-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+            >
+              <svg class="icons-footer" width="28" height="28">
+                <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-text">
+        <h2 class="footer-text-main">
+          Transforming your
+          <span class="footer-text-main-span">body</span> shape with us
+        </h2>
+      </div>
+
+      <div class="form-main">
+        <p class="form-text">Subscribe and learn about new exercises!</p>
+        <form class="form">
+          <input
+            class="footer-input"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+          />
+          <button class="footer-button" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="footer-text-end">
+        <p class="text-end-first">Energy Flow. All rights reserved.</p>
+        <div class="text-end-second">
+          <p>Privacy Policy</p>
+          <p>/</p>
+          <p>Terms of Service</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="modal-trane-background"></div>
+
+    <div class="modal-rating-background">
+  <div class="modal-rating">
+    <button class="modal-rating-btn-close" type="button">
+      <svg class="modal-rating-svg-close" height="24" width="24">
+        <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-x"></use>
+      </svg>
+    </button>
+    <form class="modal-rating-form">
+      <p class="modal-rating-title">Rating</p>
+      <ul class="modal-rating-radio-list">
+        <li><p class="modal-rating-rating">0.0</p></li>
+        <li>
+          <label
+            ><input
+              class="modal-rating-radio"
+              value="1"
+              type="radio"
+              name="radiostar" /><span>
+              <svg class="modal-rating-svg-star" height="24" width="24">
+                <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-star"></use>
+              </svg> </span
+          ></label>
+        </li>
+        <li>
+          <label
+            ><input
+              class="modal-rating-radio"
+              value="2"
+              type="radio"
+              name="radiostar" /><span>
+              <svg class="modal-rating-svg-star" height="24" width="24">
+                <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-star"></use>
+              </svg> </span
+          ></label>
+        </li>
+        <li>
+          <label
+            ><input
+              class="modal-rating-radio"
+              value="3"
+              type="radio"
+              name="radiostar" /><span>
+              <svg class="modal-rating-svg-star" height="24" width="24">
+                <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-star"></use>
+              </svg> </span
+          ></label>
+        </li>
+        <li>
+          <label
+            ><input
+              class="modal-rating-radio"
+              value="4"
+              type="radio"
+              name="radiostar" /><span>
+              <svg class="modal-rating-svg-star" height="24" width="24">
+                <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-star"></use>
+              </svg> </span
+          ></label>
+        </li>
+        <li>
+          <label
+            ><input
+              class="modal-rating-radio"
+              value="5"
+              type="radio"
+              name="radiostar" /><span>
+              <svg class="modal-rating-svg-star" height="24" width="24">
+                <use href="/project-js-fitness/assets/symbol-defs-092448a0.svg#icon-star"></use>
+              </svg> </span
+          ></label>
+        </li>
+      </ul>
+      <input
+        class="modal-rating-email"
+        placeholder="Email"
+        name="email"
+        type="email"
+      />
+      <textarea
+        class="modal-rating-comment"
+        name="comment"
+        placeholder="Your comment"
+      ></textarea>
+      <button class="modal-rating-btn">Send</button>
+    </form>
+  </div>
+</div>
+
+
+    
+  </body>
+</html>
